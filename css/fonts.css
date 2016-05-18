@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "RalewayBold";
+	src: url("../fonts/RalewayBold/RalewayBold.eot");
+	src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+			 url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewayRegular";
+	src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+	src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+			 url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/*font-family: 'NotoSansItalic';*/
+@font-face {
+    font-family: 'NotoSansItalic';
+    src:  url('../fonts/NotoSansItalic/NotoSansItalic.eot?ekrt9l');
+    src:  url('../fonts/NotoSansItalic/NotoSansItalic.eot?ekrt9l#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSansItalic/NotoSansItalic.ttf?ekrt9l') format('truetype'),
+        url('../fonts/NotoSansItalic/NotoSansItalic.woff?ekrt9l') format('woff'),
+        url('../fonts/NotoSansItalic/NotoSansItalic.svg?ekrt9l#NotoSansItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}

@@ -1,0 +1,205 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .conte_ab {
+        margin: 10% 0 5% 10%;
+    }
+    .about_imonials h2 {
+        font-size: 1.7em;
+    }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .menu li a {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .team_block>h3 {
+        display: block;
+        ;
+    }
+    .sli_team {
+        display: none;
+    }
+    .team_block {
+        padding: 30px 0;
+    }
+    .menu li a:hover span, .menu li a:focus span {
+        display: none;
+        opacity: 0;
+    }
+    .menu li a, .menu li a span {
+        transition: 0;
+    }
+    .menu li a:focus, .menu li a:hover {
+        color: #fff;
+        text-shadow: none;
+    }
+    .conte_ab {
+        margin: auto;
+        padding: 3% 0 6%;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    /*Disable Animation on Mobile Devices*/
+    .animated {
+        -webkit-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        transition-property: none !important;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -ms-animation: none !important;
+        -o-animation: none !important;
+        animation: none !important;
+    }
+    nav {
+        position: fixed;
+        z-index: 200;
+        width: 100%;
+        height: 60px;
+        background-color: #2a2d48;
+        line-height: 60px;
+    }
+    .top_line {
+        display: none;
+    }
+    .logo {
+        padding-top: 15px;
+    }
+    .menu_btn {
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #e84545;
+        font-size: 20px;
+    }
+    .menu_btn .glyphicon {
+        position: absolute;
+        top: 25%;
+        right: 0;
+        left: 0;
+    }
+    #top-menu {
+        position: absolute;
+        width: 100%;
+        background-color: rgba(102, 105, 126, 0.6);
+    }
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+    .menu li a {
+        display: block;
+        transition: 0.2s;
+    }
+    .menu li a:hover {
+        color: #000;
+        background-color: #fff;
+        font-size: 18px;
+    }
+    .menu li a:focus {
+        color: #000;
+        background-color: #fff;
+        font-size: 18px;
+    }
+    .title_block h1 {
+        margin-bottom: 50px;
+        font-size: 35px;
+    }
+    .title_block p {
+        font-size: 15px;
+    }
+    .team_block {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .down_bl h3 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .down_bl h4 {
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+    .menu li span {
+        top: -400px;
+        left: -400px;
+    }
+    .menu li a:hover {
+        text-shadow: 3px 3px 3px rgba(150, 150, 150, 0.71);
+    }
+    .works_block img {
+        margin: auto;
+    }
+    .active {
+        border: 1px solid #fff;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    nav {
+        height: 60px;
+        background-color: #2a2d48;
+        line-height: 60px;
+    }
+    .about_imonials h2 {
+        font-size: 1.4em;
+    }
+    .about_imonials p {
+        font-size: 10px;
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    nav {
+        height: 60px;
+        background-color: #2a2d48;
+        line-height: 60px;
+    }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
